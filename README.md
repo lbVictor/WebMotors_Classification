@@ -166,20 +166,22 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 ![image](https://user-images.githubusercontent.com/85720162/182041685-4b0594b2-6db8-4199-8ef7-6855ed8dcac9.png)
 
 ### Próximos Passos & Considerações
-   Próximos Passos:
-	01. Analisar em detalhes os NAs que vieram originalmente no dataset para verificar se é possível inserir valores com base em alguma técnica estatística ou com um viés de negócio, buscando entender associações, relações e conexões entre as features.
-	02. Analisar em detalhes as informações divergentes encontradas na análise das estatísticas descritivas.
-	03. Criar mais hipóteses de negócios com o objetivo de aumentar os conhecimentos dos dados disponíveis.
-	04. Criar mais features e que modelem melhor o fenômeno.
-	05. Prosseguir para a análise das outras features do dataset que não foram verificadas no primeiro ciclo por falta de tempo.
-	06. Realizar a análise multivariada para verificar as relações entre todas as features do dataset.
-	07. Realizar o split entre treino e validação antes das transformações de escala e encoding para evitar data leakage (não realizado por falta de tempo).
-	08. Testar outras técnicas de Reescaling para cada feature (não testado por falta de tempo).
-	09. Testar outras técnicas de Encoding para cada feature (não realizado por falta de tempo).
-	10. Se as demais alterações não resultarem em boas métricas, alterar a técnica dde balanceamento de dados para erificar se exista algum melhora.
-	11. Aplicar outras técnicas de Feature Selection como Boruta e Recursive Feature Elimination, ou gerar a feature importance com outros algoritmos.
-	12. Adicionar mais algoritmos para realizar o treinamento, como Logistc Regression, KNN, SVM, etc.
-	13. Refazer todos os passos de forma cíclica e se não gerar resultados, verificar com o time de engenheiros de dados a possibilidade de obter novas features para modelar melhor o fenômeno.
+**Próximos Passos:**
+
+- Analisar em detalhes os NAs que vieram originalmente no dataset para verificar se é possível inserir valores com base em alguma técnica estatística ou com um viés de negócio, buscando entender associações, relações e conexões entre as features.
+- Analisar em detalhes as informações divergentes encontradas na análise das estatísticas descritivas.
+- Criar mais hipóteses de negócios com o objetivo de aumentar os conhecimentos dos dados disponíveis.
+- Criar mais features e que modelem melhor o fenômeno.
+- Prosseguir para a análise das outras features do dataset que não foram verificadas no primeiro ciclo por falta de tempo.
+- Realizar a análise multivariada para verificar as relações entre todas as features do dataset.
+- Realizar o split entre treino e validação antes das transformações de escala e encoding para evitar data leakage (não realizado por falta de tempo).
+- Testar outras técnicas de Reescaling para cada feature (não testado por falta de tempo).
+- Testar outras técnicas de Encoding para cada feature (não realizado por falta de tempo).
+- Se as demais alterações não resultarem em boas métricas, alterar a técnica dde balanceamento de dados para erificar se exista algum melhora.
+- Aplicar outras técnicas de Feature Selection como Boruta e Recursive Feature Elimination, ou gerar a feature importance com outros algoritmos.
+- Simplificar o modelo utilzado para não gerar Overfitting.
+- Adicionar mais algoritmos para realizar o treinamento, como Logistc Regression, KNN, SVM, etc.
+- Refazer todos os passos de forma cíclica e se não gerar resultados, verificar com o time de engenheiros de dados a possibilidade de obter novas features para modelar melhor o fenômeno.
 	
-   Considerações Finais:
+**Considerações Finais:** 
 	
