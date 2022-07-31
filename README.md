@@ -160,9 +160,26 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 	![image](https://user-images.githubusercontent.com/85720162/182041423-ba537e83-4c75-45a4-9158-0daab5017909.png)
 	![image](https://user-images.githubusercontent.com/85720162/182041439-c5da60e5-b414-4eee-bc5d-65496fd68e4f.png)
 
-###	Evaluation
+### Evaluation
 
 08. **Performance:** Nessa etapa, todo o pipeline de transformações foi aplicado nos dados de teste para validar o desempenho do modelo. Porém, os resultados nesse primeiro ciclo foram muito ruins se comparado ao desempenho sobre os dados de treino, nos próximos ciclos será necessário se aprofundar um pouco mais nas análises para lapidar melhor os dados, gerar features mais relevantes e otimizar as transformações realizadas.
 ![image](https://user-images.githubusercontent.com/85720162/182041685-4b0594b2-6db8-4199-8ef7-6855ed8dcac9.png)
 
-###	Considerações & Próximos Passos
+### Próximos Passos & Considerações
+   Próximos Passos:
+	01. Analisar em detalhes os NAs que vieram originalmente no dataset para verificar se é possível inserir valores com base em alguma técnica estatística ou com um viés de negócio, buscando entender associações, relações e conexões entre as features.
+	02. Analisar em detalhes as informações divergentes encontradas na análise das estatísticas descritivas.
+	03. Criar mais hipóteses de negócios com o objetivo de aumentar os conhecimentos dos dados disponíveis.
+	04. Criar mais features e que modelem melhor o fenômeno.
+	05. Prosseguir para a análise das outras features do dataset que não foram verificadas no primeiro ciclo por falta de tempo.
+	06. Realizar a análise multivariada para verificar as relações entre todas as features do dataset.
+	07. Realizar o split entre treino e validação antes das transformações de escala e encoding para evitar data leakage (não realizado por falta de tempo).
+	08. Testar outras técnicas de Reescaling para cada feature (não testado por falta de tempo).
+	09. Testar outras técnicas de Encoding para cada feature (não realizado por falta de tempo).
+	10. Se as demais alterações não resultarem em boas métricas, alterar a técnica dde balanceamento de dados para erificar se exista algum melhora.
+	11. Aplicar outras técnicas de Feature Selection como Boruta e Recursive Feature Elimination, ou gerar a feature importance com outros algoritmos.
+	12. Adicionar mais algoritmos para realizar o treinamento, como Logistc Regression, KNN, SVM, etc.
+	13. Refazer todos os passos de forma cíclica e se não gerar resultados, verificar com o time de engenheiros de dados a possibilidade de obter novas features para modelar melhor o fenômeno.
+	
+   Considerações Finais:
+	
