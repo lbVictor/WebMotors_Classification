@@ -11,7 +11,7 @@ O projeto foi realizado de forma cíclica (metodologia CRISP-DM), sendo cada ite
 **Esse projeto representa o primeiro ciclo da solução.**
 
 Acesse o notebook de desenvolvimento do projeto nesse link: 
-https://github.com/lbVictor/Health_Insurance_Cross_Sell/blob/main/development/notebooks/health_insurance_cross_sell_cycle01.ipynb
+https://github.com/lbVictor/WebMotors_Classification/blob/main/WM_classification_development_v01.ipynb
 
 ## Sobre a Empresa 
 Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores de veículos. Não é possível comprar ou vender diretamente no site da Webmotors. Ou seja, o site é um intermediário. Assim, o interessado pode entrar em contato com quem disponibiliza o produto. Depois disso a negociação e a compra serão efetuadas fora do site. Para o comprador é uma ótima maneira de procurar seu carro ideal sem sair de casa, além de poder comparar preços. Já para o vendedor é uma oportunidade de ter uma grande alcance de público que está interessado em um automóvel igual ao dele.
