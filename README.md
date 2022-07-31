@@ -28,6 +28,11 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 
       - **Desafio Bônus:** Proponha um modelo para determinar a quantidade de leads que um anúncio irá receber
 
+	**Soluções que o modelo de classificação poderia gerar:**	
+	- Identificação de anúncios que não gerariam leads, para oferecer insights (pagos ou gratuitos) para os anúnciantes.
+	- Identificar quais anúncios receberiam leads e calcular a receita equivalente.
+	- Otimizar a plataforma (filtros, possibilidade de customização por parte dos anúnciantes, etc.)
+
 	
   	**Features disponíveis no dataset:**	  
 	
@@ -182,6 +187,7 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 - Simplificar o modelo utilzado para não gerar Overfitting.
 - Adicionar mais algoritmos para realizar o treinamento, como Logistc Regression, KNN, SVM, etc.
 - Refazer todos os passos de forma cíclica e se não gerar resultados, verificar com o time de engenheiros de dados a possibilidade de obter novas features para modelar melhor o fenômeno.
+- Após a generalização dos resultados, criar uma API para testar o envio de requisições e colocar a solução em produção.
 	
 **Considerações Finais:** 
 	
