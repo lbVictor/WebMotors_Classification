@@ -189,5 +189,5 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 - Refazer todos os passos de forma cíclica e se não gerar resultados, verificar com o time de engenheiros de dados a possibilidade de obter novas features para modelar melhor o fenômeno.
 - Após a generalização dos resultados, criar uma API para testar o envio de requisições e colocar a solução em produção.
 	
-**Considerações Finais:** 
+**Considerações Finais:** Gostei muito de desenvolver o projeto de classificação, pois já conhecia a empresa e sua área de atuação, o que fez me envolver no projeto realizado. Conheci e apliquei uma técnica nova de balanceamento (SMOTE Tomek Link), passei por todas as etapas de desenvolvimento e acredito que tenha conseguido gerar insights acionáveis para os anunciantes. Apesar do resultado final do modelo nos dados de teste não terem sido satisfatórios nesse primeiro ciclo, pelo pouco tempo dedicado para realizar o projeto (2 dias), estou muito satisfeito com o resultado final apresentado e acredito que tenha chegado no meu objetivo para esse primeiro momento. *O Projeto de regressão não foi possível ser feito devido ao tempo disponível. 
 	
