@@ -87,6 +87,9 @@ Webmotors é uma plataforma de anúncios, onde compradores encontram vendedores 
 01. **Data Cleaning & Data Description:** Nessa etapa, foi realizado a divisão do conjunto de dados entre Treino e Teste; analisado a descrição das features; verificado o tamanho do conjunto de dados; verificado dados duplicados; verificado valores faltantes (devido ao tempo disponibilizado para esse primeiro ciclo, os valores faltantes do dataset foram removidos); verificado e alterado o tipo dos dados; realizado uma análise estatística descritiva para avaliar os dados categóricos e númericos e definir ações necessárias para limpeza ou análises posteriores.
 
 02. **Feature Engineering:** Nessa etapa, foi desenvolvido um Mapa Mental para relacionar as caracteríticas do fenômeno de geração de leads pela Webmotors, com o objetivo de: identificar features interessantes para serem analisadas; criar hipóteses de negócio que possam vir a gerar insights acionáveis; conduzir a EDA; facilitar o cruzamento de informações para realizar o Feature Engineering.
+
+	![image](https://user-images.githubusercontent.com/85720162/184257365-9d6ac4af-cc86-4597-b918-e60845543a37.png)
+
          
       - Hipóteses geradas no primeiro ciclo: 26
       - Hipóteses priorizadas para validação: 9
